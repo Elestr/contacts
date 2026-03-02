@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta chat info</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+        font-size:25px;
+        background-color:  #333333;
+        color: #ffffff;
+
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    summary {
+        text-align: left;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    details ul {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    div {
+       text-align: left; 
+    }
+</style>
+
+<body>
+
+    <h1>Что такое Delta chat и с чем его едят? <img src="delta.png" alt="Delta ico" width="40"></h1>
+    <h2><a href="https://delta.chat/ru/" style="color: rgb(63, 125, 206); text-decoration: none;">Официальный сайт</a></h2><br>
+    <span style="">
+            Delta chat представляет собой децентрализованный почтовый клиент, обеспечивающий безопасное (Оконечное шифрование) и удобное (Стиль мессенджера) общение. Работает, соответственно, на почтовых серверах, в том числе и mail.ru (Yandex почта пока не проверялась), что позволяет ему работать в условиях белых списках. При этом стоит учитывать, что, несмотря на шифрование содержимого сообщений, сам факт отправки сообщений, пользователи и IP пользователей остаются доступны компании-владельцу серверов, а в виду привязки номера телефона к почте - и личность человека . Небольшой <a href="https://www.youtube.com/watch?v=gT38FfOXv1E" style="color: rgb(63, 125, 206); text-decoration: none;">обзор</a>, найденный на ютубе.
+        </span> <br><br>
+
+    <h2>Установка и настройка</h2>
+
+    <div>
+    Приложение доступно на всех популярных платформах:
+    </div><br>
+
+    <details>
+        <summary>Windows</summary>
+            <ul>
+                <li><a href="https://download.delta.chat/desktop/v2.43.0/DeltaChat-2.43.0-Setup.x64.exe" style="color: rgb(63, 125, 206); text-decoration: none;">Установщик .exe x64 (С официального сайта)</a></li>
+                <li><a href="https://apps.microsoft.com/detail/9pjtxx7hn3pk" style="color: rgb(63, 125, 206); text-decoration: none;">Microsoft Store</a></li>
+                <li><a href="https://github.com/deltachat/deltachat-desktop" style="color: rgb(63, 125, 206); text-decoration: none;">GitHub</a></li>
+            </ul>
+    </details>
+
+    <details>
+        <summary>Android</summary>
+            <ul>
+                <li><a href="https://play.google.com/store/apps/details?id=chat.delta" style="color: rgb(63, 125, 206); text-decoration: none;">GooglePlay</a></li>
+                <li><a href="https://f-droid.org/app/com.b44t.messenger" style="color: rgb(63, 125, 206); text-decoration: none;">F-Droid</a></li>
+                <li><a href="https://url.cloud.huawei.com/pXnbdjuOhW?shareTo=qrcode" style="color: rgb(63, 125, 206); text-decoration: none;">AppGallery</a></li>
+                <li><a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/{%22id%22:%22chat.delta%22,%22url%22:%22https://github.com/deltachat/deltachat-android%22,%22author%22:%22Delta%20Chat%20Contributors%22,%22name%22:%22Delta%20Chat%22,%22additionalSettings%22:%22{\%22about\%22:\%22Decentralized%20private%20messenger%20with%20chat-shared%20tools%20and%20games.\%22}%22}" style="color: rgb(63, 125, 206); text-decoration: none;">Obtainium</a></li>
+                <li><a href="https://download.delta.chat/android/deltachat-gplay-release-2.43.0.apk" style="color: rgb(63, 125, 206); text-decoration: none;">Установщик .apk (С официального сайта)</a></li>
+                <li><a href="https://github.com/deltachat/deltachat-android" style="color: rgb(63, 125, 206); text-decoration: none;">GitHub</a></li>
+            </ul>
+    </details>
+
+    <details>
+        <summary>IOS</summary>
+            <ul>
+                <li><a href="https://apps.apple.com/us/app/delta-chat/id1459523234" style="color: rgb(63, 125, 206); text-decoration: none;">AppStore</a></li>
+            </ul>
+    </details>
+
+    <details>
+        <summary>Linux/MacOS</summary>
+            <ul>
+                <li><a href="https://delta.chat/ru/download" style="color: rgb(63, 125, 206); text-decoration: none;">Смотреть на официальном сайте</a></li>
+            </ul>
+    </details>
+
+    <div>
+        <br>Настройка не сложна, но требует определенных действий, для полной работоспособности. Последовательность действий после установки:<br>
+    </div>
+        
+    <div>
+        <ol>
+            <li>"Создать новый профиль"</li>
+            <li>Ввести имя пользователя (Отображаемый ник, можно будет сменить)</li>
+            <li>"Использовать другой сервер"</li>
+            <li>"Использовать электронную почту как транспорт"</li>
+            <li>Вводите адрес свой адрес почты mail.ru или yandex(?) (Учитывайте, что этот адрес будет виден вашим собеседникам)</li>
+            <li>Создаете пароль для внешних приложений на сайте или приложении почты</li><br>
+                
+                <details>
+                    <summary>Для Mail.ru</summary>
+                        <ol>
+                            <li>Переходите в настройки безопасности (id.mail.ru/security)</li>
+                            <li>"Пароли для внешних приложений"</li>
+                            <li>Создаете пароль</li>
+                        </ol>
+                </details><br>
+
+            <li>Вставляете его в поле "Текущий пароль" Delta chat</li>
+            <li>Подтверждаете создания аккаунта</li>
+        </ol>
+    </div>
+
+    <div>
+        Чтобы добавить/пригласить другого пользователя необходимо кликнуть по кнопке (+) внизу списка контактов, выбрать "Новый контакт" сканировать QR-код/дать отсканировать свой код или вставить/скопировать ссылку на профиль и поделиться ей.
+    </div>
+    
+    
+    
+
+</body>
+
+</html>
